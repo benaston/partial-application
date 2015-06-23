@@ -1,0 +1,29 @@
+{
+	"name": "partial-application",
+	"version": "0.0.17",
+	"description": "Enables partial application without affecting the receiver (ie. 'this').",
+	"keywords": ["partial", "apply", "partial application", "bind", "functional"],
+	"homepage": "https://github.com/benaston/partial-application",
+	"bugs": {
+		"url": "https://github.com/benaston/partial-application/issues",
+		"email": "ben@bj.ma"
+	},
+	"license": "MIT",
+	"files": ["dist/*"],
+	"main": "dist/partial-application.min.js",
+	"private": false,
+	"dependencies": {},
+	"author": {
+		"name": "Ben Aston",
+		"email": "ben@bj.ma",
+		"url": "http://www.bj.ma"
+	},
+	"devDependencies": {
+		"grunt": "^0.4.5",
+		"grunt-contrib-concat": "~0.3.0",
+		"grunt-contrib-jshint": "^0.11.1",
+		"grunt-contrib-uglify": "~0.2.2",
+		"grunt-replace": "^0.7.8"
+	},
+	"repository": "git@github.com:benaston/partial-application.git"
+}
